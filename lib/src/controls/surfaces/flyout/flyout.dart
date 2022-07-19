@@ -87,7 +87,7 @@ class Flyout extends StatefulWidget {
     Key? key,
     required this.child,
     required this.content,
-    this.controller,
+    required this.controller,
     this.verticalOffset = 24,
     this.horizontalOffset = 10.0,
     this.placement = FlyoutPlacement.center,
